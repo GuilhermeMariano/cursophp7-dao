@@ -32,16 +32,16 @@ require_once ("config.php");
 //$aluno->insert();
 //echo $aluno;
 
-// dando um update
+// dando um update nas proximas 4 linhas
+//$usuario = new Usuario();
+//$usuario->loadById(7);
+//$usuario->update("Marcelo Jr","123uello");
+//echo $usuario;
+
 $usuario = new Usuario();
-
-$usuario->loadById(7);
-
-$usuario->update("Marcelo Jr","123uello");
-
+//$usuario->loadById(7);
+$usuario->delete(3);
 echo $usuario;
-
-
 
 
 ?>
